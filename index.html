@@ -1,14 +1,263 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Gulp + BrowserSync Demo</title>
-    <link href="/dist/style.css" rel="stylesheet">
-</head>
-<body>
-    <div class="container">
-        <p>Hello world!</p>
+  <head>
+    <meta charset="UTF-8" />
+    <title>Hungry Birds</title>
+    <link href="app/css/style.scss" rel="stylesheet" />
+    <link href="dist/style.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css" integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  </head>
+  <body>
+    <div class="container-fluid">
+      <div style="background-image: url(/img/bg1.jfif);" id="landing_page">
+        
+          
+          <nav>
+              <h1 class="logo">Hungry Birds</h1>
+              <ul>
+                  <li><a href="#About">About</a></li>
+                  <li><a href="#Menu">Menu</a></li>
+                  <li><a href="#Contact_us">Contact us</a></li>
+
+              </ul>
+          </nav>
+          <div class="col"><div class="first_content">A lot can happen over coffee...</div></div>
+
+    
+    
+
+      </div>
+    
+<span id="About" style="background-color: #8BC6EC;
+background-image: linear-gradient(135deg, #8BC6EC 0%, #ffffff 99%, #9599E2 100%);
+">
+
+ 
+    <div class="row" style="background-color: #eeffee;
+    background-image: linear-gradient(45deg, #eeffee 0%, #eeffee 100%);
+    ">
+      <div class="col text-center">
+        <i class="fas fa-coffee fa-7x"></i>
+      </div>
+      <div class="col text-center">
+        <i class="fas fa-heart fa-7x"></i>
+      </div>
+      <div class="col text-center">
+        <i class="fas fa-truck fa-7x"></i>
+      </div>
+      <div class="col text-center">
+        <i class="fas fa-trophy fa-7x"></i>
+      </div>
     </div>
+
+    <div class="row" style="padding-bottom: 4%; background-color: #eeffee;
+    background-image: linear-gradient(45deg, #eeffee 0%, #eeffee 100%);
+    ">
+      <div class="col text-center first">
+        Cafe in 25 cities of India
+      </div>
+      <div class="col text-center second">
+        Providing healthy, organic coffee that benefits the farmers, the drinkers and the environment, it tastes great too
+      </div>
+      <div class="col text-center third">
+        Your favorite cafe now home delivers
+      </div>
+      <div class="col text-center fourth">
+        Won The Times Food Award under the category of "Best Coffee Bar" from Times of India
+      </div>
+    </div>
+
+
+</span>
+
+<span id="Menu" style="background-color: aliceblue;">
+
+
+  <nav class="navbar" style="background-color: #efe6a1; justify-content: space-between;"  >
+    <div class="container-fluid">
+      <h2 style="color: #3f5b5e; font-size: 2.5rem; ">Menu</h2>
+      <a class="addtocart" href="#Carting">
+        <i class="fas fa-shopping-cart" style="color: #3f5b5e; font-size: 2rem;" > Cart<span>0</span></i>
+      </a>
+    </div>
+  </nav>
+
+
+
+
+
+
+
+
+  <div class="row row-cols-1 row-cols-md-2 g-4" style="background-color: aliceblue;">
+    <div class="col">
+      <div class="card">
+        <img src="/img/cappicinno.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h4 class="card-title">Cappuccino</h4>
+          <h5>$50</h5>
+          
+          <a href="#" class="btn add-cart cart1" style="color: #444547; background-color: #efe6a1;">Add to Cart</a>
+        </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="card">
+        <img src="/img/frappe.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h4 class="card-title">Frappe Coffee</h4>
+          <h5>$40</h5>
+          <a href="#" class="btn add-cart cart2" style="color: #444547; background-color: #efe6a1;">Add to Cart</a>
+          
+        </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="card">
+        <img src="/img/brioche.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h4 class="card-title">Brioche Bread</h4>
+          <h5>$40</h5>
+          <a href="#" class="btn add-cart cart3" style="color: #444547; background-color: #efe6a1;">Add to Cart</a>
+         
+        </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="card">
+        <img src="/img/bread.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h4 class="card-title">Hunger's Bread</h4>
+          <h5>$35</h5>
+          <a href="#" class="btn add-cart cart4" style="color: #444547; background-color: #efe6a1;">Add to Cart</a>
+          
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="row row-cols-1 row-cols-md-2 g-4" style="background-color: aliceblue;">
+    <div class="col">
+      <div class="card">
+        <img src="/img/tart.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h4 class="card-title">Honey and Strawberry Tart</h4>
+          <h5>$100</h5>
+          <a href="#" class="btn add-cart cart5" style="color: #444547; background-color: #efe6a1;">Add to Cart</a>
+          
+        </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="card">
+        <img src="/img/sandwich.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h4 class="card-title">Veg loaded Sandwitch</h4>
+          <h5>$80</h5>
+          <a href="#" class="btn add-cart cart6" style="color: #444547; background-color: #efe6a1;">Add to Cart</a>
+          
+        </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="card">
+        <img src="/img/pancake.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h4 class="card-title">Walnut Caramel Pancake</h4>
+          <h5>$90</h5>
+          <a href="#" class="btn add-cart cart7" style="color: #444547; background-color: #efe6a1;">Add to Cart</a>
+          
+        </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="card">
+        <img src="/img/cookie.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h4 class="card-title">Chocochip Cookie</h4>
+          <h5>$20</h5>
+          <a href="#" class="btn add-cart cart8" style="color: #444547; background-color: #efe6a1;">Add to Cart</a>
+          
+        </div>
+      </div>
+    </div>
+  </div>
+  
+
+
+
+
+</span>
+
+<span id="Carting" style="background-color: aliceblue;">
+  <nav class="navbar" style="background-color: #efe6a1;"  >
+    <div class="container-fluid">
+      <h2 style="color: #3f5b5e; font-size: 2.5rem; ">Your Cart</h2>
+      
+    </div>
+  </nav>
+  <div class="products-container" style="background-color: aliceblue;">
+    <div class="product-header row">
+      <h5 class="product-title col">PRODUCT</h5>
+      <h5 class="price col">PRICE</h5>
+      <h5 class="quantity col">QUANTITY</h5>
+      <h5 class="total col">TOTAL</h5>
+
+    </div>
+
+    <div class="products">
+
+    </div>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</span>
+
+
+<span id="Contact_us">
+  <section id="contacts" style="background-color: aliceblue;">
+    <div class="container">
+        <h2 class="endline" style="text-align: center;font-size: 4rem; color: #444547;">Let us make your day...</h2><br><br><br>
+        <div class="row last">
+            <div class="col-md-6 touch">
+                <span class="details">Contact Us:</span><br>
+                <span class="details">Mail: hungrybirds@gmail.com</span><br>
+                <span class="details">Address: C-18, Sector-4, Noida<br> Uttar Pradesh,200111</span>
+            </div>
+            
+        </div>
+    </div>
+    </div>
+</section>
+
+
+
+
+
+
+
+
+</span>
+</div>
+
+
+
+
+
+
+    
     <script src="/dist/script.js"></script>
-</body>
+    <script src="/app/js/script.js"></script>
+  </body>
 </html>

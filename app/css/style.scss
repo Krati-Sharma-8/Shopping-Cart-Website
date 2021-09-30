@@ -1,3 +1,154 @@
-$body-color: rebeccapurple;
-
 @import "node_modules/bootstrap/scss/bootstrap";
+*{
+   padding: 0%;
+   margin: 0%;
+   box-sizing: border-box;
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+
+ #landing_page{
+    
+    background-size: cover !important;
+    background-position: center !important;
+    height: 100vh !important;
+    width: 100% !important;
+    display: grid;
+   
+    grid-template-rows: auto;
+    
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 3%;
+    padding-left: 0%;
+    padding-right: 8%;
+}
+.logo{
+    color: #f8cc6d;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 100;
+    font-size: 4rem;
+    text-shadow: 2px 2px #001928;
+    padding-left: 5%;
+}
+
+
+nav ul li{
+    display: inline-block;
+    padding: 10px 30px;
+    
+}
+
+nav ul li a{
+    color: #efe6a1;
+    font-size: 1.5rem;
+    text-decoration: none;
+}
+
+nav ul li a:hover{
+    color: #f8cc6d;
+    
+}
+
+.first_content{
+    text-align: center;
+    padding-left: 55%;
+    padding-top: 10%;
+    font-size: 3rem;
+    color: #a2af9b;
+    text-shadow: 2px 2px #001928;
+}
+
+#About{
+    padding-top: 20%;
+    color: #3f5b5e;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: #8BC6EC;
+background-image: linear-gradient(135deg, #8BC6EC 0%, #ffffff 99%, #9599E2 100%);
+
+}
+#About :hover{
+    color: #021c29;
+    size: 2rem;
+}
+
+
+
+.col{
+    padding-top: 6%;
+    padding-left: 3%;
+    padding-right: 3%;
+    
+    
+}
+
+
+.products-container{
+    justify-content: space-around;
+    margin: 0 auto;
+    margin-top: 2%;
+}
+.product-header{
+    display: flex;
+    justify-content: flex-start;
+    border-bottom: lightblue 4px solid;
+}
+.product-title{
+    width: 45%;
+}
+.price{
+    width: 15%;
+    border-bottom: 1px solid lightblue;
+    display: flex;
+    align-items: center;
+}
+.total {
+   width: 10%;
+   border-bottom: 1px solid lightblue;
+   display: flex;
+   align-items: center;
+}
+.quantity{
+    width: 30%;
+    border-bottom: lightblue 1px solid;
+    display: flex;
+    align-items: center;
+}
+
+.product{
+    width: 45%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px 0;
+    border-bottom: lightblue 1px solid;
+}
+
+.basketTotalContainer{
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+    padding: 10px 0;
+}
+.basketTotalTitle{
+    width: 30%;
+}
+
+.basketTotal{
+    width: 10%;
+}
+.products{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+
+}
+.details{
+    font-size: 2rem;
+    font-weight: 100;
+    text-align: center;
+}
