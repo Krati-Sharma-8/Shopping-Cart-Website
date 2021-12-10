@@ -3,7 +3,7 @@
    padding: 0%;
    margin: 0%;
    box-sizing: border-box;
-   font-family: Verdana, Geneva, Tahoma, sans-serif;
+   font-family: Verdana, Tahoma, sans-serif;
 }
 
 
@@ -51,6 +51,7 @@ nav ul li a{
 
 nav ul li a:hover{
     color: #f8cc6d;
+    font-size: 1.6rem;
     
 }
 
@@ -71,84 +72,41 @@ nav ul li a:hover{
 background-image: linear-gradient(135deg, #8BC6EC 0%, #ffffff 99%, #9599E2 100%);
 
 }
-#About :hover{
-    color: #021c29;
-    size: 2rem;
-}
 
-
-
-.col{
-    padding-top: 6%;
-    padding-left: 3%;
-    padding-right: 3%;
-    
-    
-}
-
-
-.products-container{
-    justify-content: space-around;
-    margin: 0 auto;
-    margin-top: 2%;
-}
-.product-header{
-    display: flex;
-    justify-content: flex-start;
-    border-bottom: lightblue 4px solid;
-}
-.product-title{
-    width: 45%;
-}
-.price{
-    width: 15%;
-    border-bottom: 1px solid lightblue;
-    display: flex;
-    align-items: center;
-}
-.total {
-   width: 10%;
-   border-bottom: 1px solid lightblue;
-   display: flex;
-   align-items: center;
-}
-.quantity{
-    width: 30%;
-    border-bottom: lightblue 1px solid;
-    display: flex;
-    align-items: center;
-}
-
-.product{
-    width: 45%;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    padding: 10px 0;
-    border-bottom: lightblue 1px solid;
-}
-
-.basketTotalContainer{
-    display: flex;
-    justify-content: flex-end;
-    width: 100%;
-    padding: 10px 0;
-}
-.basketTotalTitle{
-    width: 30%;
-}
-
-.basketTotal{
-    width: 10%;
-}
-.products{
-    width: 100%;
-    display: flex;
-    flex-wrap: wrap;
-
-}
 .details{
-    font-size: 2rem;
+    font-size: 1rem;
+    color: #001928;
     font-weight: 100;
     text-align: center;
+}
+
+.removebtn{
+    background-color: #efe6a1;
+    border-color: #f8cc6d;
+    color: #001928;
+}
+.cartItem{
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
+
+.fab:hover, .far:hover{
+    color: #001928;
+    transition: .5s;
+    font-size: 2.5rem;
+}
+
+.card-title:hover{
+    font-size: 1.7rem;
+    color: #001928;
+}
+.addToCart:hover{
+    font-size: 1.1rem;
+    color: #001928;
+}
+.addToCart{
+    border-radius: 10px;
+}
+.none{
+    display: none;
 }
