@@ -7,7 +7,7 @@ const browsersync = require('browser-sync').create();
 
 // Sass Task
 function scssTask(){
-  return src('app/scss/style.scss', { sourcemaps: true })
+  return src('app/css/style.scss', { sourcemaps: true })
     .pipe(sass())
     .pipe(postcss([cssnano()]))
     .pipe(dest('dist', { sourcemaps: '.' }));
@@ -38,7 +38,7 @@ function browsersyncReload(cb){
 // Watch Task
 function watchTask(){
   watch('*.html', browsersyncReload);
-  watch(['app/scss/**/*.scss', 'app/js/**/*.js'], series(scssTask, jsTask, browsersyncReload));
+  watch(['app/css/**/*.scss', 'app/js/**/*.js'], series(scssTask, jsTask, browsersyncReload));
 }
 
 // Default Gulp task
