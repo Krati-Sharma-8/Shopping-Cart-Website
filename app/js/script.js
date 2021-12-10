@@ -48,7 +48,7 @@ var cart = document.querySelectorAll(".cartItem");
 var removebt = document.querySelectorAll(".removebtn");
 
 
-for(let i = 0; i < ; i++){
+for(let i = 0; i < 8; i++){
     addToCart[i].addEventListener('click', function(){
         noOfItems++;
         totalCost += products[i].price;
