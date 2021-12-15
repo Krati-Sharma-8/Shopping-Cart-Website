@@ -3,39 +3,66 @@
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Hungry Birds</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0 , shrink-to-fit=no">
+  <title>Hunger's Cafe</title>
   <link href="dist/style.css" rel="stylesheet" />
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css" integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&display=swap" rel="stylesheet">
+  
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" ></script>
+
 </head>
 <body>
 
-  <div class="container-fluid" style="background-size: cover;">
-    <div style="background-image: url(/img/bg1.jfif);" id="landing_page">
-      
+  <div class="parallax">
+
+    <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-white" style="background-color: #001928; ">
+      <div class="container-fluid" >
+        <a class="navbar-brand" href="#" style="font-family: 'Dancing Script' cursive;color: #f8cc6d;">
+          Hunger's Cafe 
+          <i class="fas fa-coffee"></i>
+        </a>
+        <button class="navbar-toggler collapsed" style="color: #f8cc6d;" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon" style="color: #efe6a1;"></span>
+        </button>
         
-        <nav>
-            <h1 class="logo">Hungry Birds</h1>
-            <ul>
-                <li><a href="#About">About</a></li>
-                <li><a href="#Menu">Menu</a></li>
-                <li><a href="#Contact_us">Contact us</a></li>
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo02" >
+          
+          &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp
 
-            </ul>
-        </nav>
-        <div class="col"><div class="first_content">A lot can happen over coffee...</div></div>
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0 " >
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#About">About</a>
+            </li> &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp
+            <li class="nav-item">
+              <a class="nav-link" href="#Menu">Menu</a>
+            </li> &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp
+            <li class="nav-item">
+              <a class="nav-link" href="#Contact_us">Contact us</a>
+            </li>
+          </ul>
+          
+          
 
-  
-  
+        </div>
+      </div>
+    </nav>
 
+    <div class="first_content container" style="background-size: cover;font-family:'Dancing Script', cursive;">
+      
+        <h1 style="font-size: 6.5rem; color: #efe6a1; font-family: 'Dancing Script', cursive;">Hunger's Cafe</h1>
+        <hr class="mt-4 ml-auto mr-auto">
+        <h3 class="mt-4" style="font-size: 2.5rem; font-family: 'Dancing Script', cursive;">A lot can happen over coffee...</h3>
+        
     </div>
-  </div>
 
+  </div>
 
 <span id="About" style="background-color: #8BC6EC;
 background-image: linear-gradient(135deg, #8BC6EC 0%, #ffffff 99%, #9599E2 100%);
 ">
-
 
   <div class="row" style="background-color: #eeffee;
   background-image: linear-gradient(45deg, #eeffee 0%, #eeffee 100%);
@@ -69,23 +96,14 @@ background-image: linear-gradient(135deg, #8BC6EC 0%, #ffffff 99%, #9599E2 100%)
     </div>
   </div>
 
-  
-    
-    
-    
-    
-  
-
-
 </span>
-
 
 <span id="Menu" style="background-color: aliceblue;">
 
 
-<nav class="navbar" style="background-color: #efe6a1; justify-content: space-between;border-color: #f8ce6d;"  >
+<nav class="navbar" style="background-color: #001928; justify-content: space-between;color: white; padding: 0;"  >
   <div class="container">
-    <h2 style="color: #001928; font-size: 2.5rem; ">Menu</h2>
+    <h2 style="color: white; font-size: 2.5rem; ">Menu</h2>
     <i class="fas fa-utensils fa-2x"></i>
     
   </div>
@@ -102,7 +120,7 @@ background-image: linear-gradient(135deg, #8BC6EC 0%, #ffffff 99%, #9599E2 100%)
         <h4 class="card-title">Cappuccino</h4>
         <h5>$50</h5>
         
-        <button class="addToCart" style="color: #444547; background-color: #efe6a1;">Add to Cart</a>
+        <button class="addToCart" style="color: #444547; background-color: #efe6a1; padding: 2% 2% 2% 2%;">Add to Cart</a>
       </div>
     </div>
   </div>
@@ -112,7 +130,7 @@ background-image: linear-gradient(135deg, #8BC6EC 0%, #ffffff 99%, #9599E2 100%)
       <div class="card-body">
         <h4 class="card-title">Frappe Coffee</h4>
         <h5>$40</h5>
-        <button class="addToCart" style="color: #444547; background-color: #efe6a1;">Add to Cart</a>
+        <button class="addToCart" style="color: #444547; background-color: #efe6a1; padding: 2% 2% 2% 2%;">Add to Cart</a>
         
       </div>
     </div>
@@ -123,7 +141,7 @@ background-image: linear-gradient(135deg, #8BC6EC 0%, #ffffff 99%, #9599E2 100%)
       <div class="card-body">
         <h4 class="card-title">Brioche Bread</h4>
         <h5>$40</h5>
-        <button class="addToCart" style="color: #444547; background-color: #efe6a1;">Add to Cart</a>
+        <button class="addToCart" style="color: #444547; background-color: #efe6a1; padding: 2% 2% 2% 2%;">Add to Cart</a>
         
       </div>
     </div>
@@ -134,7 +152,7 @@ background-image: linear-gradient(135deg, #8BC6EC 0%, #ffffff 99%, #9599E2 100%)
       <div class="card-body">
         <h4 class="card-title">Hunger's Bread</h4>
         <h5>$35</h5>
-        <button class="addToCart" style="color: #444547; background-color: #efe6a1;">Add to Cart</a>
+        <button class="addToCart" style="color: #444547; background-color: #efe6a1; padding: 2% 2% 2% 2%;">Add to Cart</a>
         
       </div>
     </div>
@@ -154,7 +172,7 @@ background-image: linear-gradient(135deg, #8BC6EC 0%, #ffffff 99%, #9599E2 100%)
       <div class="card-body">
         <h4 class="card-title">Honey and Strawberry Tart</h4>
         <h5>$100</h5>
-        <button class="addToCart" style="color: #444547; background-color: #efe6a1;">Add to Cart</a>
+        <button class="addToCart" style="color: #444547; background-color: #efe6a1; padding: 2% 2% 2% 2%;">Add to Cart</a>
         
       </div>
     </div>
@@ -163,9 +181,9 @@ background-image: linear-gradient(135deg, #8BC6EC 0%, #ffffff 99%, #9599E2 100%)
     <div class="card mx-auto" style="width: 18rem;padding-right: 3%;padding-left: 3%;">
       <img src="/img/sandwich.jpg" class="card-img-top" alt="...">
       <div class="card-body">
-        <h4 class="card-title">Veg loaded Sandwich</h4>
+        <h4 class="card-title">Hunger's Veg Sandwich</h4>
         <h5>$80</h5>
-        <button class="addToCart" style="color: #444547; background-color: #efe6a1;">Add to Cart</a>
+        <button class="addToCart" style="color: #444547; background-color: #efe6a1; padding: 2% 2% 2% 2%;">Add to Cart</a>
         
       </div>
     </div>
@@ -176,7 +194,7 @@ background-image: linear-gradient(135deg, #8BC6EC 0%, #ffffff 99%, #9599E2 100%)
       <div class="card-body">
         <h4 class="card-title">Walnut Caramel Pancake</h4>
         <h5>$90</h5>
-        <button class="addToCart" style="color: #444547; background-color: #efe6a1;">Add to Cart</a>
+        <button class="addToCart" style="color: #444547; background-color: #efe6a1; padding: 2% 2% 2% 2%;">Add to Cart</a>
         
       </div>
     </div>
@@ -187,7 +205,7 @@ background-image: linear-gradient(135deg, #8BC6EC 0%, #ffffff 99%, #9599E2 100%)
       <div class="card-body">
         <h4 class="card-title">Chocolate Chips Cookies</h4>
         <h5>$20</h5>
-        <button class="addToCart" style="color: #444547; background-color: #efe6a1;">Add to Cart</a>
+        <button class="addToCart" style="color: #444547; background-color: #efe6a1; padding: 2% 2% 2% 2%;">Add to Cart</a>
         
       </div>
     </div>
@@ -198,11 +216,11 @@ background-image: linear-gradient(135deg, #8BC6EC 0%, #ffffff 99%, #9599E2 100%)
 
 </span>
 
-
 <span id="Carting" style="background-color: aliceblue;">
 
     <div class="cart none" style="background-color: aliceblue;">
       <h2 style="color: #001928; font-size: 2.5rem; text-align: center; ">Your Cart</h2>
+      <hr style="border-top: 3px solid #001928; width: auto; background-color: #001928;">
       <div class="container">
         <div class="row text-center list" style="padding-top: 3%; padding-bottom: 3%; color: #001928; font-weight: bolder;">
           <div class="col">ITEM</div>
@@ -300,13 +318,11 @@ background-image: linear-gradient(135deg, #8BC6EC 0%, #ffffff 99%, #9599E2 100%)
 
 </span>
 
-
-
 <span id="Contact_us" style="background-color: aliceblue;">
 
-  <nav class="navbar" style="background-color: #efe6a1; border-color: #f8ce6d;"  >
+  <!-- <nav class="navbar" style="background-color: #001928;color: white; padding: 0;"  >
     <div class="container">
-      <h2 style="color: #001928; font-size: 2.5rem; ">Contact us</h2>
+      <h2 style="color: white; font-size: 2.5rem; ">Contact us</h2>
       <i class="fas fa-id-badge fa-2x"></i>
       
     </div>
@@ -317,7 +333,7 @@ background-image: linear-gradient(135deg, #8BC6EC 0%, #ffffff 99%, #9599E2 100%)
     <div class="col-6 col-mg-6">
       <div class="details" style="text-align: left;">
         
-        Mail: hungrybirds@gmail.com<br>
+        Mail: hungercafe@gmail.com<br>
         Address: 21, Sector-8, Ashok Nagar,<br>
         New Delhi, 474001.<br>
       </div>
@@ -334,14 +350,33 @@ background-image: linear-gradient(135deg, #8BC6EC 0%, #ffffff 99%, #9599E2 100%)
       <h6 style="text-align: center; ">Webpage developed by Krati Sharma</h6>
     </div>
 
-  </div>
-  </div>
+  </div> -->
+
+
+  <section id = 'footer' style="background-color: aliceblue;">
+    <hr style="border-top: 3px solid #001928; width: auto; background-color: #001928;">
+    <p>Come visit us at: <br><i class="fas fa-map-marker-alt" style="color: #fff;"></i> 18, Street 8, Ashoka Nagar, Delhi.</p>
+    <p class="row">
+      <div class="col-12 social-icons-last">
+      <i class="fab fa-facebook-f fa-2x" style="margin: 0px 4.8px;"></i>
+      <i class="fab fa-twitter fa-2x" style="margin: 0px 4.8px;"></i>
+      <i class="fab fa-instagram fa-2x" style="margin: 0px 4.8px;"></i>
+      <i class="far fa-envelope fa-2x" style="margin: 0px 4.8px;"></i>
+      </div>     
+    </p>
+    <p style="font-family: cursive;">Website developed by Krati Sharma</p>
+  </section>
+  
 
 
 </span>
-
  
-  <script src="/app/js/script.js"></script>
   <script src="/dist/script.js"></script>
+  <script src="/app/js/script.js"></script>
+  
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
 </body>
 </html>
+
+

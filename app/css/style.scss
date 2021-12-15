@@ -3,72 +3,124 @@
    padding: 0%;
    margin: 0%;
    box-sizing: border-box;
-   font-family: Verdana, Tahoma, sans-serif;
+   font-family: cursive;
+}
+
+.parallax {
+    /* The image used */
+    background-image: url(/img/bg5.png);
+  
+    /* Set a specific height */
+    height: 100vh; 
+    width: 100%;
+  
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;}
+
+//  #landing_page{
+    
+//     background-size: cover !important;
+//     background-position: center !important;
+//     height: 100vh !important;
+//     width: 100% !important;
+//     display: grid;
+//     grid-template-rows: auto;
+    
+// }
+// nav{
+  
+//     align-items: center;
+//     justify-content: space-between;
+//     padding-left: 0%;
+//     padding-right: 8%;
+// }
+
+
+.nav-link{
+    color: #efe6a1 !important;
+}
+
+.nav-link:hover{
+    color: #f8cc6d !important;
+}
+
+.bg-white {
+    --bs-bg-opacity: 1;
+    background-color: rgba(0,25,40,1)!important;
 }
 
 
- #landing_page{
-    
-    background-size: cover !important;
-    background-position: center !important;
-    height: 100vh !important;
-    width: 100% !important;
-    display: grid;
+.navbar-light .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3E%3Cpath stroke='rgba(239, 230, 161, 1)' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+}
+
+.navbar-brand{
+    font-family: 'Dancing Script', cursive;
+}
    
-    grid-template-rows: auto;
+// .navbar-toggler {
+//     background-color: transparent;
+//     border: 1px solid #efe6a1;
+//     border-radius: .25rem;
+//     font-size: 1.25rem;
+//     line-height: 1;
+//     padding: .25rem .75rem;
+//     transition: box-shadow .15s ease-in-out;
+// }
+
+// .logo{
+//     color: #f8cc6d;
+//     font-family: Verdana, Geneva, Tahoma, sans-serif;
+//     font-weight: 100;
+//     font-size: 4rem;
+//     text-shadow: 2px 2px #001928;
+//     padding-left: 5%;
+// }
+
+
+// nav ul li{
+//     display: inline-block;
+//     padding: 10px 30px;
     
-}
-nav{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding-top: 3%;
-    padding-left: 0%;
-    padding-right: 8%;
-}
-.logo{
-    color: #f8cc6d;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-weight: 100;
-    font-size: 4rem;
-    text-shadow: 2px 2px #001928;
-    padding-left: 5%;
-}
+// }
 
+// nav ul li a{
+//     color: #efe6a1;
+//     font-size: 1.5rem;
+//     text-decoration: none;
+// }
 
-nav ul li{
-    display: inline-block;
-    padding: 10px 30px;
+// nav ul li a:hover{
+//     color: #f8cc6d;
+//     font-size: 1.6rem;
     
-}
+// }
 
-nav ul li a{
-    color: #efe6a1;
-    font-size: 1.5rem;
-    text-decoration: none;
-}
-
-nav ul li a:hover{
-    color: #f8cc6d;
-    font-size: 1.6rem;
-    
+#cafe-name{
+    font-size: 10rem;
 }
 
 .first_content{
     text-align: center;
-    padding-left: 55%;
-    padding-top: 10%;
-    font-size: 3rem;
+    padding-left: 20%;
+    padding-top: 15%;
+    padding-right: 20%;
+    font-size: 5rem;
     color: #a2af9b;
     text-shadow: 2px 2px #001928;
+    font-family: 'Dancing Script', cursive;
 }
+
 
 #About{
     padding-top: 20%;
     color: #3f5b5e;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: cursive;
     background-color: #8BC6EC;
-background-image: linear-gradient(135deg, #8BC6EC 0%, #ffffff 99%, #9599E2 100%);
+    background-image: linear-gradient(135deg, #8BC6EC 0%, #ffffff 99%, #9599E2 100%);
 
 }
 
@@ -108,4 +160,13 @@ background-image: linear-gradient(135deg, #8BC6EC 0%, #ffffff 99%, #9599E2 100%)
 }
 .none{
     display: none;
+}
+
+#footer{
+    color: #001928;
+    text-align: center;
+    padding: 5% 3%;
+  }
+.social-icons-last{
+    text-align: center;
 }
